@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  WCTAllFunctionText
+//
+//  Created by four on 16/3/17.
+//  Copyright © 2016年 王春涛. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//通用宏与工具类
+#import "CommonMacro.h"
+#import "WCTTool.h"
+#import "UserDefaults.h"
+#import "ViewController.h"
+#import "WCTDefine.pch"
+
+
+#import "CustomLabel.h"
+#import "CustomButton.h"
+#import "CustomDatePicker.h"
+#import "CustomSheetView.h"
+#import "CustomTextField.h"
+#import "CustomTextView.h"
+#import "IconNameView.h"
+
+//第三方
+#import "IQKeyboardManager.h"   //键盘弹起自动布局
+#import "MJRefresh.h"           //刷新第三方（上拉刷新时间显示，没有logo，下拉没时间显示）
+#import "MBProgressHUD+Add.h"
+#import "Toast+UIView.h"
+#import "GTMBase64.h"
+
+
+#endif /* PrefixHeader_pch */
